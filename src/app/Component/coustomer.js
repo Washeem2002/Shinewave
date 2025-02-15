@@ -50,7 +50,7 @@ const Coustomer=()=>{
             <div className="flex  flex-col  border-b-[5px] border-white gap-3  w-[300px] h-[200px] bg-white shrink-0 p-2 rounded-lg border-2 border-black" key={i}>
             <div className=" flex items-center  gap-3 h-fit">
              <div className=" w-[25px] h-[25px] sm:w-[40px] sm:h-[40px] rounded-full bg-blue-600   text-white relative"><FaUser className="  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"/></div>
-             <div className="  text-[19px] "><div>{arr.name}</div><div className="text-[12px] text-white-900 opacity-70 "> 12-3-2024</div></div>
+             <div className="  text-[19px] "><div>{arr.name}</div><div className="text-[12px] text-white-900 opacity-70 "> {arr.date}</div></div>
              <div className="    text-[15px]  bg-blue-600 text-white rounded flex items-center gap-[4px] px-1"><div>5</div><div className="w-fit h-fit"><FaStar/></div></div>
 
             </div>
