@@ -8,7 +8,7 @@ const Area=()=>{
       <div className="flex flex-wrap justify-center gap-6 text-white">
       {
         data.map((arr,i)=>{return(
-            <div key={i} className="max-w-[300px] h-[350px] w-full sm:max-w-[360px] bg-white border border-gray-200 rounded-[30px] sm:rounded-[40px] shadow-sm dark:border-gray-700 flex flex-col gap-5  justify-center items-center outline-offset-2 overflow-hidden relative">
+            <div key={i} className="max-w-[300px]  h-[300px] sm:h-[330px] w-full sm:max-w-[360px] bg-white border border-gray-200 rounded-[30px] sm:rounded-[40px] shadow-sm dark:border-gray-700 flex flex-col gap-5  justify-center items-center outline-offset-2 overflow-hidden relative">
       <img src={arr.img} className="h-full w-full"></img>
       <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center text-4xl font-[600]"><div className="w-fit h-fit">{arr.name}</div></div>
     </div>
