@@ -5,31 +5,31 @@ const Services=()=>{
     const items = [
         {
           id: 1,
-          image: "https://solarpower.guide/solar-energy-insights/images/solar-panel-cleaning.jpg",
+          image: "solar-panel-cleaning.jpg",
           title: "Solar Panel Cleaning",
           description: "Regular cleaning enhances efficiency and prevents damage, as dust, dirt, and bird droppings can reduce energy output by 5-25%.",
         },
         {
           id: 2,
-          image: "https://media.screeningeagle.com/thumbnail/media/Wiki/5000/image-thumb__5000__wiki-image/Solar_Panels_Inspection.3c636563.avif",
+          image: "Solar_Panels_Inspection.3c636563.avif",
           title: "Solar Panel Inspection",
           description: "Regular inspections ensure efficiency and prevent long-term damage. Detecting issues early can improve performance and extend lifespan.",
         },
         {
           id: 3,
-          image: "https://jmhpower.com/wp-content/uploads/2024/08/Solar-Panel-Repair.jpg",
+          image: "Solar-Panel-Repair.jpg",
           title: "Solar Panel Repair",
           description: "Timely repairs restore efficiency and prevent further damage. Identifying and fixing issues early extends lifespan and maximizes energy output.",
         },
         {
             id: 4,
-            image: "https://i0.wp.com/www.opengreenenergy.com/wp-content/uploads/2021/05/F057AIKKOK1POSR.jpg?w=1024&ssl=1",
+            image: "F057AIKKOK1POSR.jpg",
             title: "Solar Panel Monitoring",
             description: "Monitoring optimizes performance, detects issues early, and extends the lifespan of the solar panel system, ensuring maximum efficiency.",
           },
           {
             id: 5,
-            image: "https://static.wixstatic.com/media/be34f4_5f0b5db9b9cc40cf9e72493488ffdbb0~mv2.jpeg/v1/fill/w_925,h_616,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/be34f4_5f0b5db9b9cc40cf9e72493488ffdbb0~mv2.jpeg",
+            image: "upgr.avif",
             title: "Solar Panel Upgrade",
             description: "Upgrading enhances efficiency, boosts energy output, and extends the system’s lifespan, ensuring better performance while keeping up with the latest technology.",
           },
