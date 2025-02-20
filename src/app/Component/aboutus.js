@@ -1,3 +1,5 @@
+'use client'
+import { FaWhatsapp } from "react-icons/fa6";
 const About=()=>{
     return(
      <>
@@ -11,6 +13,8 @@ const About=()=>{
 
 
      </div>
+
+     <div className="fixed bottom-20 right-10 sm:right-20 w-fit h-fit bg-green-700 z-10 rounded-full text-[60px] shadow-[0px_0px_45px_10px_rgba(15,10,222,1)]" onClick={() =>{ document.location.href ='https://wa.me/919793037778';}}><FaWhatsapp/></div>
      </>   
     )
 }

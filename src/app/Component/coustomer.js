@@ -41,10 +41,10 @@ const Coustomer=()=>{
   
     return (
         <>
-           <div className="w-full py-[100px]  justify-center items-center flex flex-col gap-5 sm:gap-7 px-2  text-black font-serif bg-black-rgba relative">
+           <div className="w-full py-[100px]  justify-center items-center flex flex-col gap-5 sm:gap-7 px-2  text-black font-serif bg-black-rgba ">
       <div className="w-full text-center text-4xl font-[500] pb-[20px]">Reviews</div>
       
-      <div className="max-w-[1200px] w-full h-[200px] relative"><div className="     flex gap-8 overflow-scroll overflow-y-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] " ref={ref}>
+      <div className="max-w-[1200px] w-full h-[200px] relative z-6"><div className="     flex gap-8 overflow-scroll overflow-y-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] " ref={ref}>
         {
           data.map((arr,i)=>{return(
             <div className="flex  flex-col  border-b-[5px] border-white gap-3  w-[300px] h-[200px] bg-white shrink-0 p-2 rounded-lg border-2 border-black" key={i}>
