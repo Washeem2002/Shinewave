@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-import Head from 'next/head';
+import head from 'next/head';
 
 export const metadata = {
   title: "ShineWave",
