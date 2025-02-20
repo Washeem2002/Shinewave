@@ -52,7 +52,7 @@ const Services=()=>{
         <h5 className="mb-2 text-3xl  font-[500]">{item.title}</h5>
         <p className=" font-normal text-gray-700 ">{item.description}</p>
       </div>
-      <div className="w-full text-white flex justify-center"><button className="max-w-[200px] w-full h-[50px] bg-blue-600 rounded-full" onClick={() =>{ document.location.href ='https://wa.me/918218154669';}}>Book Now</button></div>
+      <div className="w-full text-white flex justify-center"><button className="max-w-[200px] w-full h-[50px] bg-blue-600 rounded-full" onClick={() =>{ document.location.href ='https://wa.me/919793037778';}}>Book Now</button></div>
     </div>
   ))}
 </div>
