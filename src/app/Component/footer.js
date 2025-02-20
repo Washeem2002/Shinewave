@@ -12,7 +12,7 @@ const Footer=()=>{
            </div>
            <div className=" flex flex-col md:flex-row gap-2 justify-center ">
             <div className="text-[50px] md:text-[70px] text-green-600 flex justify-center"><FaPhoneFlip/></div>
-            <div className="text-center flex justify-center flex-col"><div className="text-md md:text-lg font-[700] flex justify-center flex-col">Contact Us</div><div className="text-sm">918218154669</div> <div className="text-sm">918896447203</div></div>
+            <div className="text-center flex justify-center flex-col"><div className="text-md md:text-lg font-[700] flex justify-center flex-col">Contact Us</div><div className="text-sm">+919793037778</div> <div className="text-sm">+918896447203</div></div>
            </div>
            <div className=" flex flex-col md:flex-row gap-2 justify-center ">
             <div className="text-[50px] md:text-[70px] text-green-600 text-center flex justify-center"><FaLocationDot/></div>
